@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/55561fe780f53850ecb56c3bf5e3b431?family=font+6);
+@import url(//db.onlinewebfonts.com/c/2ed805719fa5d7012eeb9fd440dd798b?family=Laniesky);
+
+.page_container{
+    background: #F1F0EB;
+    padding: 0 2rem;
+}
+.page_deatils{
+    padding: 1.6rem 0 0 2rem;
+}
+.page_deatils pre{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 20px;
+}
+.page_deatils pre h4{
+    font-weight: 500;
+}
+.page_deatils pre p{
+    /* font-weight: 100; */
+    color: rgb(102, 98, 98);
+}
+.page_deatils div{
+    max-width: 25rem;
+    margin: 3rem 0;
+}
+.page_deatils div h1{
+    line-height: 200%;
+    font-size: 3.5rem;
+    font-family: "font 6";
+    /* font-family: "font 6"; */
+}
+.page_deatils div p{
+    line-height: 150%;
+    font-family: "crystalsky";
+}
+
+.rooms{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "font 6";
+    /* font-family: "crystalsky"; */
+
+    /* color: #383535; */
+}
+
+.interiorWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.interior{
+    max-width: 580px;
+    /* max-width: 470px; */
+    min-height: 770px;
+    /* border: 2px solid red; */
+}
+.interior_image{
+    /* height: 400px; */
+    height: 557px;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.r{
+    color: white;
+}
+.interior_text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.interior_text_left{
+    max-width: 320px;
+}
+
+.interior_text_left p{
+    /* border: 2px solid red; */
+    margin-bottom: 1rem;
+    /* font-family: "Laniesky"; */
+}
+
+.interior_icons pre{
+    margin-bottom: 1.5rem;
+}
+.interior_icons p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.interior_icons p > * {
+    margin-bottom: .8rem;
+}
+
+.rooms{
+    margin: 1rem 0 4rem 0;
+}

@@ -1,0 +1,27 @@
+@import url(//db.onlinewebfonts.com/c/55561fe780f53850ecb56c3bf5e3b431?family=font+6);
+@import url(//db.onlinewebfonts.com/c/2ed805719fa5d7012eeb9fd440dd798b?family=Laniesky);
+@import url(//db.onlinewebfonts.com/c/eb81cbda40cc7fe3721ebcd8009c0208?family=Skyskraper);
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&family=GFS+Didot&family=Karla:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+#root {
+  max-width: 2560px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+pre{
+  font-style: "crystalsky"; 
+}
